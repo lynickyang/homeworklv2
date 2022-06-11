@@ -1,0 +1,345 @@
+// .swiper {
+// 	max-width: 1120;
+// 	height: 428px;
+//   }
+
+.indexBG{
+	position: absolute;
+	width: 860px;
+	height: 786px;
+	top:0px;
+	right: 0px;
+	background-image:url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	z-index: -1;
+}
+
+.bgtest{
+	display: block;
+	background-color: red;
+}
+
+.topLogo{
+	position: relative;
+}
+.banner{
+	display: flex;
+	align-items: center;
+	height: calc(100vh - 80px);
+	position: relative;
+	img{width: 50%;}
+	.bannerWord{width: 50%;}
+}
+
+.hero_ball{
+	position: absolute;
+	top: calc(100vh - 180px);
+	left: 0px;
+	width: 138px;
+	height: 360px;
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball01.svg);
+	background-position: right;
+}
+
+.platform{
+	margin-bottom: 30px;
+}
+
+.platformContent{/*ul*/
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	li{
+		text-align: center;
+		width: 33.3333%;
+    	align-items: center;
+		padding-left: 56px;
+		padding-right: 56px;
+		img{width: 90px;}
+	}
+}
+.anyservice{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.serviceframe{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+
+.hero_ball2{
+	position: absolute;
+	right:0px;
+	top:280px;
+	width: 210px;
+	height: 320px;
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball02.svg);
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.serArea{
+	width: 23.5%;
+	background: white;
+	overflow:hidden;
+}
+
+.quicknow{
+	display: flex;
+	flex-wrap: wrap;
+	.quicknowframe{
+		width: 50%;
+		display: flex;
+		flex-wrap: wrap;	
+	}
+	.quicknowWord{
+		padding-left: 100px;
+		align-items: center;
+		a:hover{
+			background-color:#FF5D50;
+		}
+	}
+}
+
+.quicknowArea{
+	width: 40%;
+	overflow:hidden;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 48px;
+	margin-bottom: 30px;
+	margin-right: 38px;
+}
+
+.like{
+	position: relative;
+	margin-top: 70px;
+}
+.hero_ball3{
+	position: absolute;
+	top: 48px;
+	left: -85px;
+	width: 150px;
+	height: 155px;
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg);
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+.picin{
+	width: 86px;
+	height: 86px;
+	img{
+		width: 52px;
+		height: 52px;
+		margin-left: 18px;
+		margin-top: 16px;
+		}	
+}
+
+.likeflex{
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+
+.likearea{
+	position:relative;
+	width: 100%;
+	padding: 48px 32px 25px 32px;
+	margin-top: 104px;
+	margin-bottom: 28px;
+	background-color: white;
+}
+.user{
+	width: 80px;
+	position: absolute;
+	top: -60px;
+}
+.rate{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+
+.cont{
+	display: flex;
+}
+
+.nextPage{
+	display: flex;
+	justify-content: center;
+}
+.doc{
+	width: 10px;
+	height: 10px;
+	margin-left: 8px;
+	border-radius: 50px;
+	margin-bottom: 100px;
+}
+
+.doc-Yell{
+	width: 20px;
+	background: #FFD153;
+}
+
+.homefooter{
+	background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home_footer.svg");
+	background-position: center top;
+	background-repeat:repeat-x;
+	h1{
+		padding-top: 260px;
+		padding-bottom: 50px;
+	}
+	a:hover{background-color: #FF5D50;}
+}
+
+
+.copyright{
+	margin-top: 80px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+@media (max-width:412px){
+	.indexBG{
+		top: 400px;
+		left: 8px;
+		width: 350px;
+		height: 305px;
+		background-image:url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg);
+		z-index: -1;
+	}
+
+	.container{
+		max-width: 412px;
+		// max-width: calc(412px - 40px);
+	}
+	// .swiper {
+	// 	max-width: calc(375px - 40px);
+	//   }
+	.fz{
+		&48{font-size: 32px;line-height: normal;}
+		&32{font-size: 24px;line-height: normal;}
+		&24{font-size: 20px;line-height: normal;}
+		&20{font-size: 18px;line-height: normal;}
+		&18{font-size: 16px;line-height: normal;}
+		&16{font-size: 14px;line-height: normal;}
+	}
+	
+	.topLogo img{
+		height: 24px;
+	}
+	.topLogo{
+		align-items: center;
+		margin-top: 16px;
+	}
+
+	.hryell{
+		margin-top: 16px;
+		height: 2px;
+		border: 0px;
+		background: #F5CA52;
+	}
+
+	.cellgotop{
+		max-width:412px;
+		height: 75px;
+		background: white;
+		// position: fixed;
+		z-index: 2;
+	}
+
+	.banner{
+		padding-top: 100px;
+		margin-bottom: 80px;
+		display: flex;
+		flex-wrap: wrap;
+		height: calc(100vh - 200px);
+		img{width: 100%;}
+		.bannerWord{
+			width: 100%;
+			margin-bottom: 16px;
+		}
+	}
+	.hero_ball{
+		top: calc(100vh + 80px);
+		left: 0px;
+		width: 49px;
+		height: 126px;
+		background-size: 126px;
+	}
+	.platform{
+		padding-top: 190px;
+		.platformContent{/*ul*/
+			li{
+				padding-top: 24px;
+				width: 100%;
+				padding-left: 56px;
+				padding-right: 56px;
+				img{width: 50px;}
+			}
+		}
+	}
+	.anyservice{
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	.serArea{
+		width: 100%;
+		margin-bottom: 24px;
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+
+	.hero_ball2{
+		right:0px;
+		top:1650px;
+		width:88px;
+		height: 135px;
+		background-size: 135px;
+	}
+
+	.quicknow{
+		flex-direction: column-reverse;
+		.quicknowframe{
+			width: 100%;
+		}
+		.quicknowWord{
+			align-items: center;
+			text-align: center;
+			padding-left: 0px;
+		}
+	}
+	.quicknowArea{
+		margin-top: 32px;
+		width: 100%;
+		padding-left: 30px;
+		padding-bottom: 48px;
+		margin-right: 53px;
+		margin-left: 53px;
+		margin-bottom: 0;
+	}
+
+	.likearea{
+		position:relative;
+		width: 96%;
+		padding: 48px 32px 25px 32px;
+	}
+
+
+	.homefooter h1{
+		font-size: 24px;
+	}
+
+	.gotop a{
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 14px;
+		right: 16px;
+		bottom: 16px;
+	}
+}

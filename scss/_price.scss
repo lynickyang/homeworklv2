@@ -1,0 +1,282 @@
+.PriceBG{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 860px;
+	height: 786px;
+	background-image:url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	z-index: -1;
+}
+
+.graybg{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 1350px;
+	height: 470px;
+	background-color: #F5F5F5;
+	border-radius: 0 0 0 350px;
+	z-index: -2;
+}
+.chose{
+	margin-top: 20px;
+}
+.bannerPrice{
+	height: 406px;
+	margin-top: 90px;
+	position: relative;
+}
+
+.heroballyellow{
+	position: absolute;
+	top: 900px;
+	left: 0px;
+	width: 94px;
+	height: 360px;
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg);
+	background-position: right;
+	background-size: 360px;
+	z-index: -3;
+}
+
+.btnlist{
+	display: flex;
+		justify-content:center;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		white-space: nowrap;
+		margin-bottom: 54px;
+}
+
+.btnlist a:hover{
+	background: #56C4C5;
+	color: white;
+}
+
+.version{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+
+
+}
+
+.versionBk{
+	width: 48%;
+	margin-right: 21px;
+	background-color: white;
+}
+
+
+.graybox{
+	width: 45%;
+	height: 108px;
+	background-color: #F5F5F5;
+	padding-top: 24px;
+}
+
+.equal{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	padding-left: 29px;
+	padding-right: 29px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.equframe{
+	overflow: hidden;
+	p{font-size: 16px;}
+	h2{
+		font-size: 28px;
+		padding-top: 8px;
+	}
+	span{
+		padding-left: 8px;
+		font-size: 16px;
+	}
+}
+
+.checkliskFrame{
+	padding-left: 29px;
+
+}
+.checklist{
+	display: flex;
+}
+
+.btnbuy{
+	display: block;
+	width: 128px;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 32px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.btnbuy a:hover{
+	background: #FF5D50;
+}
+
+
+
+.question{
+	margin-top: 100px;
+}
+
+
+.qabl{
+	width: 100%;
+	padding: 16px 32px;
+	margin-bottom: 16px;	
+	.qabl-flex{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.qabl-img{
+	height: 25px;
+	width: 25px;
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.qabl-img-open{
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg);
+}
+
+.qa-text{
+	line-height: 1.5em;
+}
+.showqa{
+	width: 95%;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+.qabl2{
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyright{
+	margin-top: 80px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+@media (max-width:375px){
+	.PriceBG{
+		position: absolute;
+		top: 10px;
+		left: 0px;
+		width: 375px;
+		height: 495px;
+		background-image:url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg);
+		background-repeat: no-repeat;
+		z-index: -1;
+	}
+	.graybg{
+		position: absolute;
+		top: 30px;
+		right: 0px;
+		width: 375px;
+		height: 450px;
+		background-color: #F5F5F5;
+		border-radius: 0 0 0 150px;
+		z-index: -2;
+	}
+	.container{
+		max-width: calc(375px - 40px);
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.fz{
+		&48{font-size: 32px;line-height: normal;}
+		&32{font-size: 28px;line-height: normal;}
+		&24{font-size: 20px;line-height: normal;}
+		&20{font-size: 18px;line-height: normal;}
+		&18{font-size: 16px;line-height: normal;}
+		&16{font-size: 14px;line-height: normal;}
+	}
+	
+	.topLogo img{
+		height: 24px;
+	}
+	.topLogo{
+		align-items: center;
+		margin-top: 16px;
+	}
+
+	.cellgotop{
+		width: 375px;
+		height: 75px;
+		top: 0;
+		background: white;
+		position: fixed;
+		z-index: 2;
+	}
+
+	.versionBk{
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 24px;
+	}
+	.heroballyellow{
+		position: absolute;
+		top: 1350px;
+		left: 0px;
+		width: 94px;
+		height: 156px;
+		background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg);
+		background-position: right;
+		background-size: 156px;
+		background-repeat: no-repeat;
+		z-index: -3;
+	}
+
+	.checkliskFrame{
+		padding-left: 8px;
+	
+	}
+	.equframe{
+		p{font-size: 12px;}
+		h2{
+			font-size: 24px;
+			padding-top: 12px;
+		}
+		span{
+			padding-left: 6px;
+			font-size: 14px;
+		}
+	}
+
+	.btnbuy{
+		line-height: 50px;
+	}
+	.btnlist{
+		justify-content: flex-start;
+	}
+	.btnPrice{
+		padding: 8px 24px;
+	}
+
+	.question{
+		margin-top: 60px;
+		p{line-height: 20px;}
+	}
+
+
+	.showqa{
+		width: 100%;
+		padding-left: 8px;
+		padding-right: 8px;
+		p{line-height: 2em;}
+	}
+
+
+}

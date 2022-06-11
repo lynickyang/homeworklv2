@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="/scss/all.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="PriceBG"></div>
+    <div class="graybg"></div> 
+    <!-- top按鈕 -->
+    <div class="gotop">
+        <a href="" id="gotop" class=" radious-cir textbl textct fz24 color-white bgc-green">Top</a>
+    </div>
+    <!-- 最上方LOGO與圖片 -->
+    <div class="cellgotop">
+        <div class="container">
+            <!-- 上方LOGO -->
+            <div class="topLogo magt24">
+                <a href="https://lynickyang.github.io/htmlcss/index.html"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/logo.png" alt=""></a>
+                <div class="a-bg-blue"> <!--套用藍底變色-->
+                    <a href="https://lynickyang.github.io/htmlcss/Price.html"class="btn textct color-white bgc-red  radious20">方案費用</a>     
+                </div>                
+            </div>
+        </div>
+            <hr class="hryell">
+    </div>
+        <!-- 看板 -->
+        <div class="container bannerPrice">
+            <h1 class="fz48 textbl">計費方式說明</h1>
+            <h4 class="fz16">聊天機器人幫你實現增粉、轉單、客服等目標</h4>
+        </div>
+
+    <!-- 彈性選擇 -->
+        <div class="chose container">
+            <h1 class="fz32 textct textbl magb48 ">彈性選擇，提供您選擇最適合的方案</h1>
+            <ul class="btnlist">
+                <li><button class="btnPrice" id="btn1000">1000位</button></li>
+                <li><button class="btnPrice" id="btn1500">1500位</button></li>
+                <li><button class="btnPrice" id="btn2000">2000位</button></li>
+                <li><button class="btnPrice" id="btn2500">2500位</button></li>
+                <li><button class="btnPrice" id="btn2500up">>2500位</button></li>            
+            </ul>           
+
+            <ul class="version container">
+                <li class="versionBk radious12 shadow">
+                    <h2 class="fz24 padt10 textct textbl">基本版</h2>
+                    <hr>
+                    <p class="fz16 textct padt16">提供中小企業最必要的功能<br>完整建立分眾以達到精準的行銷自動化</p>
+                    <div class="equal">
+                        <div class="equframe graybox radious12">
+                            <p>訂閱用戶數</p>
+                            <h2 class=" color-green" id="submunber0">10000<span>位</span></h2>
+                        </div>
+                        <p class="fz32">=</p>
+                        <div class="equframe graybox radious12">
+                            <p >試算每月的費用</p>
+                            <h2 id="pricemonth0">600<span>TWD</span></h2>
+                        </div>
+                    </div>
+                    <ul class="checkliskFrame">
+                        <li class="checklist padb16">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg" alt="">
+                            <p class="fz16 padl8" >支援 Messenger / Instagram 或 LINE 渠道</p>
+                        </li>
+                        <li class="checklist padb16">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg" alt="">
+                            <p class="fz16 padl8" >10 個進階套件</p>
+                        </li>
+                        <li class="checklist padb16">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg" alt="">
+                            <p class="fz16 padl8" >可設定 50 種分眾標籤</p>
+                        </li>
+                        <li class="checklist padb16">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg" alt="">
+                            <p class="fz16 padl8" >客服人機轉接</p>
+                        </li>
+
+                    </ul>
+                    <div class="btnbuy fz18 textct  "><a href="" class="color-white bgc-green radious27 ">立即體驗</a></div>
+                
+                </li>
+                <!-- 標準版         -->
+                <li class="versionBk radious12 shadow">
+                    <h2 class="fz24 padt10 textct textbl">標準版</h2>
+                    <hr>
+                    <p class="fz16 textct padt16">建立企業流量池，全通路數據整合與交換<br>高可靠性服務</p>
+                    <div class="equal">
+                        <div class="equframe graybox radious12">
+                            <p>訂閱用戶數</p>
+                            <h2 class=" color-green" id="submunber">10000<span>位</span></h2>
+                        </div>
+                        <p class="fz32">=</p>
+                        <div class="equframe graybox radious12">
+                            <p >試算每月的費用</p>
+                            <h2 id="pricemonth">1600<span>TWD</span></h2>
+                        </div>
+                    </div>
+                    <ul class="checkliskFrame">
+                        <li class="checklist padb16">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg" alt="">
+                            <p class="fz16 padl8" >支援多個 Messenger、Instagram 和 LINE 渠道</p>
+                        </li>
+                        <li class="checklist padb16">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg" alt="">
+                            <p class="fz16 padl8" >20 個進階及行銷互動套件</p>
+                        </li>
+                        <li class="checklist padb16">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg" alt="">
+                            <p class="fz16 padl8" >可設定 500 種分眾標籤</p>
+                        </li>
+                        <li class="checklist padb16">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg" alt="">
+                            <p class="fz16 padl8" >客服人機轉接＋自動指派專員處理</p>
+                        </li>
+                    </ul>
+                    <div class="btnbuy fz18 textct  "><a href="" class="color-white bgc-green radious27 ">立即體驗</a></div>
+                </li>               
+            </ul>
+        </div>
+        <!-- 黃球1 -->
+        <div class="heroballyellow"></div>
+
+
+
+    <div class="question container">
+        <h2 class="fz32 textct textbl">常見問題</h2>
+
+
+        <ul class="qaframe magt60">
+
+            <li class="qabl radious12 shadow">
+                <div class="qabl-flex">
+                    <p class="fz18 color-green textbl">我要怎麼變更方案？</p>
+                    <a href="" class="qabl-img"></a>
+                </div>
+                <p class="qa-text padt24 padb32 color-gray" >當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p> 
+            </li>
+
+            <li class="qabl radious12 shadow">
+                <div class="qabl-flex">
+                    <p class="fz18 color-green textbl">如果我沒有LINE官方帳號怎麼辦？</p>
+                    <a href="" class="qabl-img"></a>
+                </div>
+                <p class="qa-text padt24 padb32 color-gray" >當然哦！我們錢都收了，不會拋棄你的！ 請您直接來我們公司，我們假日也都在辦公室。</p> 
+            </li>
+
+                        <li class="qabl radious12 shadow">
+                <div class="qabl-flex">
+                    <p class="fz18 color-green textbl">非上班日有客服支援嗎？</p>
+                    <a href="" class="qabl-img"></a>
+                </div>
+                <p class="qa-text padt24 padb32 color-gray" >當然哦！我們錢都收了，不會拋棄你的！<br> 請您直接來我們公司，我們假日也都在辦公室。</p> 
+            </li>
+                                          
+        </ul>
+    </div>    
+
+    <!-- copyright -->
+    <div class="copyright fz16 color-black bgc-gray textct">
+        © 2022 chatTalker. All Rights Reserved.
+    </div>
+
+    <script src="/js/price.js"></script>
+
+</body>
+</html>
