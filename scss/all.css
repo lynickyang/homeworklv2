@@ -65,6 +65,7 @@ img {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 line-height {
@@ -268,7 +269,9 @@ line-height {
 }
 
 .btn {
+  display: inline-block;
   font-size: 16px;
+  color: white;
   border-radius: 27px;
   padding: 12px 32px;
   border: 0px;
@@ -281,7 +284,6 @@ line-height {
 }
 
 .btnPrice {
-  display: block;
   color: #56C4C5;
   background-color: white;
   text-align: center;
@@ -372,6 +374,10 @@ line-height {
 
 .topLogo {
   position: relative;
+}
+
+.topbtn a:hover {
+  background-color: #56C4C5;
 }
 
 .banner {
@@ -903,16 +909,6 @@ line-height {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.btnbuy {
-  display: block;
-  width: 128px;
-  height: 50px;
-  line-height: 50px;
-  margin-bottom: 32px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .btnbuy a:hover {
